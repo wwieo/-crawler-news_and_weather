@@ -2,8 +2,6 @@ import request
 import time
 from bs4 import BeautifulSoup, Tag
 from flask import Flask, request, abort
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 import datetime
 import urllib.request
 import re
